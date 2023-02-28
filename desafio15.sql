@@ -1,1 +1,1 @@
-SELECT LPAD(HOUR(submitted_date), 2, '0') as submitted_hour FROM purchase_orders;
+SELECT HOUR(submitted_date) as submitted_hour FROM purchase_orders;
